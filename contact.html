@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="preloader">
+        <div class="loader"></div>
+      </div>
+     <!-- Header -->
+     <header>
+        <div class="logo">The Economy Explorer</div>
+        <!-- Mobile Menu Toggle -->
+        <button class="menu-toggle" aria-label="Toggle Navigation">
+          <i class="bx bx-menu"></i>
+        </button>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="articles.html">Articles</a>
+              <ul>
+                <li><a href="#">Economic Trends</a></li>
+                <li><a href="#">Net Worth Insights</a></li>
+                <li><a href="#">Financial Strategies</a></li>
+              </ul>
+            </li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </div>
+      </header>
         <!-- Contact Section -->
         <section id="contact" class="contact-page">
             <h2>📞Contact</h2>
@@ -56,6 +87,19 @@
               <button type="submit">Send Message</button>
             </form>
           </section>
+
+          <footer>
+            <div class="footer-content">
+              <p>&copy; 2021 The Economy Explorer</p>
+              <div class="social-icons">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </footer>
+          <script src="index.js"></script>
     
 </body>
 </html>

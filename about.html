@@ -1,23 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about me</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="preloader">
+        <div class="loader"></div>
+      </div>
+    <!-- Header -->
+    <header>
+      <div class="logo">The Economy Explorer</div>
+      <!-- Mobile Menu Toggle -->
+      <button class="menu-toggle" aria-label="Toggle Navigation">
+        <i class="bx bx-menu"></i>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="articles.html">Articles</a>
+            <ul>
+              <li><a href="#">Economic Trends</a></li>
+              <li><a href="#">Net Worth Insights</a></li>
+              <li><a href="#">Financial Strategies</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." />
+        <button type="submit">Search</button>
+      </div>
+    </header>
+
     <!-- About Me Section -->
     <section id="about" class="about-me">
-        <h2>About Me</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-          dolorum numquam quo eos aspernatur, recusandae in minus suscipit
-          consectetur natus?.
-        </p>
-        <img src="images/bright.jpeg" alt="" />
-      </section>
+      <h2>About Me</h2>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+        dolorum numquam quo eos aspernatur, recusandae in minus suscipit
+        consectetur natus?.
+      </p>
+      <img src="images/bright.jpeg" alt="" />
+    </section>
     
-</body>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 The Economy Explorer. All Rights Reserved.</p>
+        <div class="social-links">
+          <a href="#"><i class="bx bxl-facebook-circle"></i>Facebook</a>
+          <a href="#"><i class="bx bxl-twitter"></i>Twitter</a>
+          <a href="#">instagram</a>
+        </div>
+      </footer>
+      <script src="index.js"></script>
+  </body>
 </html>
